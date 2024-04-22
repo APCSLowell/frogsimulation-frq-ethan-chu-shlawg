@@ -34,7 +34,7 @@ public class FrogSimulation
 			if(simulate())
 				count++;
 		}
-		return count/num;
+		return count/(double)num;
 	}
 	
 	
